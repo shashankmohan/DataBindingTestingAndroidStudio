@@ -10,6 +10,7 @@ import self.android.com.databindingsample.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity {
 
     private User user;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
