@@ -22,6 +22,6 @@ public class MainActivity extends AppCompatActivity {
         user.setEmail("shashankunnithan03@gmail.com");
         activityMainBinding.setUser(user);*/
 
-
+//This is my test code for databinding
     }
 }
