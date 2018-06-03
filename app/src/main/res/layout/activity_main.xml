@@ -7,6 +7,8 @@
         <variable
             name="user"
             type="self.android.com.databindingsample.User" />
+
+
     </data>
 
     <LinearLayout
@@ -17,6 +19,7 @@
             android:id="@+id/content"
             layout="@layout/content_main"
             bind:user="@{user}" />
+
 
     </LinearLayout>
 
