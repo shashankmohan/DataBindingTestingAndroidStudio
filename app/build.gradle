@@ -1,10 +1,6 @@
 apply plugin: 'com.android.application'
 
 android {
-
-    dataBinding {
-        enabled = true
-    }
     compileSdkVersion 26
     defaultConfig {
         applicationId "self.android.com.databindingsample"
@@ -19,6 +15,9 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    dataBinding {
+        enabled = true
     }
 
 
